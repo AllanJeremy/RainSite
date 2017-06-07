@@ -1,0 +1,159 @@
+/*Font definitions*/
+*
+{
+  font-family: 'Roboto', sans-serif;
+}
+/*Main*/
+main
+{
+  width:100%;
+  background-color:#e6e6e6;
+  color:#162d50 !important;
+}
+/*Navigation*/
+.nav
+{
+  padding-bottom:0;
+  border-radius:0px;
+  font-size:14px;
+  background-color:#fff;
+}
+
+ul.nav li a
+{
+  color:#337ab7;
+  border-bottom:4px solid transparent;
+  transition: 0.3s;
+}
+ul.nav li a:hover
+{
+  background-color:#fff;
+  color:#273755;
+  border-bottom:4px solid #162d50;
+}
+
+ul.nav li.active
+{
+  background-color:#273755;
+}
+ul.nav li.active a,
+ul.nav li.active a:hover
+{
+  background-color:#273755;
+  color:#fff;
+}
+
+
+
+/*Landing*/
+.landing
+{
+  padding-top:10em;
+  height:100vh;
+  background-image:url("../images/landing-bg.jpg");
+  background-size:cover;
+  background-position:bottom;
+  background-repeat:no-repeat;
+}
+
+.card
+{
+  background-color:#fff;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  padding:1.5em;
+  margin-top:1em;
+  margin-bottom:2px;
+}
+
+.card-fixed
+{
+  min-height:40vh;
+}
+.large-text
+{
+  font-size:150%;
+}
+.light-text
+{
+  font-weight:300;
+}
+.landing-card
+{
+  background-color:rgba(255,255,255,0.8);
+}
+
+/*Buttons for the landing card*/
+.btn-landing
+{
+  border-radius:0px;
+  color:#fff;
+  padding:12px;
+  font-size:125%;
+}
+
+.btn.btn-default
+{
+  background-color:transparent;
+  border-radius:0;
+  color:#162d50;
+  border: 1px solid #162d50;
+  transition:0.3s;
+}
+
+.btn.btn-default:hover
+{
+  background-color:#162d50;
+  color:#fff;
+}
+
+#btn-landing-get
+{
+  background-color:#ff7f2a;
+}
+
+#btn-landing-learn
+{
+  background-color:#4ab979;
+}
+
+/*Footer*/
+.footer
+{
+  background-color:#212121;
+  color:#aaa;
+}
+
+.footer a,.footer a:visited,.footer a:focus
+{
+  text-decoration:none;
+  color:#777;
+  transition:0.2s;
+}
+
+.footer a:hover
+{
+  color:#eee;
+  text-decoration:none;
+}
+.footer ul
+{
+  list-style:none;
+}
+
+.footer ul li
+{
+  line-height: 1.5;
+}
+
+.divider
+{
+  width:100%;
+  border-bottom:1px solid #4d4d4d;
+}
+/*Only display this on medium devices and updated*/
+@media only screen and (min-width: 768px) {
+    .nav .navbar-collapse {
+        margin-left:35%;
+    }
+}
