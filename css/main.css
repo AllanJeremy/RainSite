@@ -123,16 +123,45 @@ ul.nav li.active a:hover
   color:#fff;
 }
 
-#btn-landing-get
+#btn-landing-get,
+#btn-landing-get:visited,
+#btn-landing-get:focus
 {
   background-color:#ff7f2a;
+  transition:0.3s;
 }
 
-#btn-landing-learn
+#btn-landing-get:hover
+{
+  background-color:#ce5c11;
+  color:#fff;
+}
+
+#btn-landing-learn,
+#btn-landing-learn:visited,
+#btn-landing-learn:focus
 {
   background-color:#4ab979;
+  transition:0.3s;
+}
+#btn-landing-learn:hover
+{
+  background-color:#2f8d57;
+  color:#fff;
 }
 
+.icon-btn,
+.icon-btn:visited,
+.icon-btn:focus
+{
+  color:#162d50;
+  transition:0.5s;
+}
+
+.icon-btn:hover
+{
+  color:#ea6d1b;
+}
 /*Footer*/
 .footer
 {
