@@ -16,42 +16,41 @@ main
   padding-bottom:0;
   border-radius:0px;
   font-size:14px;
-  background-color:#fff;
+  background-color:#212121;
 }
 
-ul.nav li a
+.nav a
 {
-  color:#337ab7;
+  color:#888;
+  /*color:#337ab7;*/
   border-bottom:4px solid transparent;
   transition: 0.3s;
 }
-ul.nav li a:hover
+.nav a:hover
 {
-  background-color:#fff;
-  color:#273755;
-  border-bottom:4px solid #162d50;
+
+  background-color:transparent !important;
+  color:#eee;
 }
 
-ul.nav li.active
-{
-  background-color:#273755;
-}
 ul.nav li.active a,
 ul.nav li.active a:hover
 {
-  background-color:#273755;
-  color:#fff;
+  border-bottom:4px solid #eee;
+  /*background-color:#273755;*/
+  color:#eee;
 }
-
 
 
 /*Landing*/
 .landing
 {
   padding-top:10em;
+  width:100%;
   height:100vh;
   background-image:url("../images/landing-bg.jpg");
   background-size:cover;
+  margin:auto;
   background-position:bottom;
   background-repeat:no-repeat;
 }
@@ -84,6 +83,23 @@ ul.nav li.active a:hover
 }
 
 /*Buttons for the landing card*/
+.btn.btn-light,
+.btn.btn-light:focus,
+.btn.btn-light:visited
+{
+  border-radius:0;
+  border-color:#eee;
+  color:#eee;
+  transition:0.3s;
+}
+
+.btn.btn-light:hover
+{
+  text-decoration:none;
+  background-color:#eee;
+  color:#212121;
+}
+
 .btn-landing
 {
   border-radius:0px;
@@ -124,6 +140,10 @@ ul.nav li.active a:hover
   color:#aaa;
 }
 
+.footer-list
+{
+
+}
 .footer a,.footer a:visited,.footer a:focus
 {
   text-decoration:none;
@@ -134,7 +154,7 @@ ul.nav li.active a:hover
 .footer a:hover
 {
   color:#eee;
-  text-decoration:none;
+  text-decoration:underline;
 }
 .footer ul
 {
