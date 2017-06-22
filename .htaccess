@@ -1,0 +1,12 @@
+#Turn rewrite engine on
+RewriteEngine On
+
+#Rewrite rules
+RewriteRule ^about about.php [NC,L]
+RewriteRule ^pricing pricing.php [NC,L]
+RewriteRule ^features features.php [NC,L]
+RewriteRule ^contact contact.php [NC,L]
+RewriteRule ^faqs faqs.php [NC,L]
+RewriteRule ^terms-and-conditions terms.php [NC,L]
+RewriteRule ^privacy privacy.php [NC,L]
+RewriteRule ^cookie-policy cookie_policy.php [NC,L]

@@ -176,7 +176,7 @@ ul.nav li.active a:hover
 
 .footer-list
 {
-
+  padding-left:0;
 }
 .footer a,.footer a:visited,.footer a:focus
 {
