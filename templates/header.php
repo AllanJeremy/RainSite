@@ -26,7 +26,7 @@
     <div class="container-fluid">
       <div class="navbar-header">
         <a class="navbar-brand" href="<?php echo HOME_LINK; ?>"><i class="glyphicon glyphicon-tint"></i> RAIN</a>
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#rainNav">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#rainNav" aria-label="Navigation menu toggle">
           <i class="fa fa-bars" style="color:#ccc;"></i>
         </button>
       </div>

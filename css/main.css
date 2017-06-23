@@ -87,6 +87,10 @@ ul.nav li.active a:hover
   background-color:rgba(255,255,255,0.8);
 }
 
+.half-height
+{
+  min-height:50vh;
+}
 /*Buttons for the landing card*/
 .btn.btn-light,
 .btn.btn-light:focus,
@@ -181,7 +185,7 @@ ul.nav li.active a:hover
 .footer a,.footer a:visited,.footer a:focus
 {
   text-decoration:none;
-  color:#777;
+  color:#bbb;
   transition:0.2s;
 }
 
@@ -213,34 +217,95 @@ ul.nav li.active a:hover
 }
 
 /*Features*/
+#features_main
+{
+  background-color:#808080;
+}
+.overlay-dark
+{
+  height:inherit;
+  background-color:rgba(0,0,0,0.5);
+}
+.overlay-light
+{
+  height:inherit;
+  background-color:rgba(255,255,255,0.6);
+}
 .card-dark
 {
+  overflow: auto;
   background-color:rgba(0,0,0,0.75);
   height:inherit;
+  min-height:inherit;
   color:#ccc;
 }
 
-#feature_classrooms
+.card-dark-fade
+{
+  /*background:#212121;*/
+  background: linear-gradient(#212121ff, rgba(0,0,0,0.75)); /* Standard syntax */
+}
+
+.spread-text
+{
+  line-height:1.4em;
+}
+
+.card-pricing
+{
+  background-color:#fff;
+  border:2px solid #bbb;
+
+}
+#feature_landing
+{
+    background-image:url("../images/bg.jpeg");
+    background-position:center;
+    /*color:#212121;*/
+}
+
+#classrooms
 {
   background-image:url("../images/classrooms.jpeg");
 }
 
-#feature_assignments
+#assignments
 {
   background-image:url("../images/assignments.jpeg");
 }
 
-#feature_tests
+#tests
 {
   background-image:url("../images/tests.jpeg");
 }
 
-#feature_schedules
+#schedules
 {
   background-image:url("../images/schedules.jpeg");
 }
 
-#feature_superuser
+#superuser
 {
   background-image:url("../images/superuser.jpeg");
+}
+
+/*Pricing*/
+#pricing-landing
+{
+  background-image:url("../images/pricing-landing.jpg");
+  color:#fff;
+}
+.pricing-list
+{
+  list-style-type: none;
+}
+
+.price-box
+{
+  min-height:60vh;
+}
+
+.pricing-list .checkbox *
+{
+  font-size:18px;
 }
