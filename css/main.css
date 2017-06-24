@@ -229,7 +229,7 @@ ul.nav li.active a:hover
 .overlay-light
 {
   height:inherit;
-  background-color:rgba(255,255,255,0.6);
+  background-color:rgba(255,255,255,0.5);
 }
 .card-dark
 {
@@ -282,6 +282,11 @@ ul.nav li.active a:hover
 #schedules
 {
   background-image:url("../images/schedules.jpeg");
+}
+
+#statistics
+{
+  background-image:url("../images/statistics.jpeg");
 }
 
 #superuser
